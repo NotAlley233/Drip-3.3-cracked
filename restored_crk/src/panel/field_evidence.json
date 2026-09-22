@@ -1,0 +1,58 @@
+[
+  {
+    "module": "backtrack",
+    "field": "backtrack.delay",
+    "offset": "0x6c",
+    "display_rva": "0x5ec70",
+    "live_display": "168 ms",
+    "instructions": [
+      "0x5ec70 push rsi",
+      "0x5ec71 push rdi",
+      "0x5ec72 sub rsp, 0x28",
+      "0x5ec76 mov rsi, rcx",
+      "0x5ec79 mov rax, qword ptr [rip + 0x406a08]",
+      "0x5ec80 mov rdi, qword ptr [rax]",
+      "0x5ec83 mov rcx, qword ptr [rcx + 0x98]",
+      "0x5ec8a add rsi, 0x20",
+      "0x5ec8e call 0x4070",
+      "0x5ec93 mov r8d, dword ptr [rdi + 0x6c]",
+      "0x5ec97 mov rcx, rsi",
+      "0x5ec9a mov rdx, rax",
+      "0x5ec9d call 0x523b0",
+      "0x5eca2 mov al, 1",
+      "0x5eca4 add rsp, 0x28",
+      "0x5eca8 pop rdi",
+      "0x5eca9 pop rsi",
+      "0x5ecaa ret "
+    ]
+  },
+  {
+    "module": "right-clicker",
+    "field": "right-clicker.cps",
+    "offset": "0x310",
+    "display_rva": "0xbdee0",
+    "live_display": "26 CPS",
+    "instructions": [
+      "0xbdee0 push rsi",
+      "0xbdee1 push rdi",
+      "0xbdee2 sub rsp, 0x28",
+      "0xbdee6 mov rsi, rcx",
+      "0xbdee9 mov rax, qword ptr [rip + 0x3a7798]",
+      "0xbdef0 mov rdi, qword ptr [rax]",
+      "0xbdef3 mov rcx, qword ptr [rcx + 0x8ba0]",
+      "0xbdefa add rsi, 0x20",
+      "0xbdefe call 0x4070",
+      "0xbdf03 movss xmm0, dword ptr [rdi + 0x310]",
+      "0xbdf0b cvtss2sd xmm2, xmm0",
+      "0xbdf0f mov rcx, rsi",
+      "0xbdf12 mov rdx, rax",
+      "0xbdf15 movq r8, xmm2",
+      "0xbdf1a call 0x523b0",
+      "0xbdf1f mov al, 1",
+      "0xbdf21 add rsp, 0x28",
+      "0xbdf25 pop rdi",
+      "0xbdf26 pop rsi",
+      "0xbdf27 ret "
+    ]
+  }
+]

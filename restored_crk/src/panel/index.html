@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>Driplite Studio · 实时调参</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<main>
+  <header class="masthead"><a class="brand" href="/" aria-label="Drip Lite 首页">drip<span>lite</span><small>本地控制台</small></a><div class="connection"><span id="connection-dot" class="dot"></span><span id="connection-text">正在连接</span><button id="refresh" class="quiet" aria-label="刷新连接">↻</button></div></header>
+  <section class="session-bar" aria-label="同步控制"><div><span class="session-mark">↔</span><span id="sync-text">正在读取当前配置…</span><span id="sync-detail" class="subtle"></span></div><div class="session-actions"><button id="undo" class="quiet" disabled>撤销</button><button id="reset-all" class="quiet" disabled>恢复原配置</button><button id="pause" class="pause" disabled>暂停同步</button></div></section>
+  <nav class="category-nav" aria-label="模块分类"><div class="tabs" role="tablist" aria-label="模块分类"><button role="tab" aria-selected="true" data-category="Combat">Combat</button><button role="tab" aria-selected="false" data-category="Visual">Visual</button><button role="tab" aria-selected="false" data-category="Movement">Movement</button><button role="tab" aria-selected="false" data-category="Utility">Utility</button></div><button id="settings" class="icon-button" aria-label="界面设置" title="界面设置">⚙</button><button id="profiles" class="icon-button" aria-label="保存与载入配置" title="保存与载入配置">☁</button></nav>
+  <div class="list-tools"><div><h1 id="category-title">Combat</h1><span id="module-count" class="subtle"></span></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索模块…" aria-label="搜索全部模块" autocomplete="off"><kbd>/</kbd></label></div>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <section id="modules" class="modules" role="tabpanel" aria-label="Combat 模块"><div class="loading">正在读取模块与参数…</div></section>
+  <footer><span id="footer-status">仅本机连接</span><span>修改后约 2 秒读回 · <button id="mapping-info" class="text-button">字段支持情况</button></span></footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="dialog"><form method="dialog"><button class="dialog-close quiet" aria-label="关闭">×</button></form><div id="dialog-content"></div></dialog>
+<input id="import-file" type="file" accept="application/json,.json" hidden>
+</body></html>

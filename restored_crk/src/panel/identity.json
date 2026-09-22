@@ -1,0 +1,240 @@
+{
+  "image_size": 27791360,
+  "loader_sha256": "eb0bf26765676d2c6f7b2b5853d706785c42b6a7674f1c84135e67071f215cd0",
+  "signatures": [
+    {
+      "rva": "0x55e5a",
+      "hex": "f3410f105f5c440fb68698000000488d5424304889f1e88b1e0000"
+    },
+    {
+      "rva": "0x5ec70",
+      "hex": "56574883ec284889ce488b05086a4000488b38488b899800"
+    },
+    {
+      "rva": "0xce500",
+      "hex": "56574883ec28488b057b713900488b38488d712083bfb803"
+    }
+  ],
+  "modules": [
+    {
+      "id": "auto-clicker",
+      "object_slot_rva": "0x49ece0",
+      "vtable_rva": "0x468068"
+    },
+    {
+      "id": "aim-assist",
+      "object_slot_rva": "0x49ecd0",
+      "vtable_rva": "0x467bf8"
+    },
+    {
+      "id": "triggerbot",
+      "object_slot_rva": "0x49ecb8",
+      "vtable_rva": "0x46e958"
+    },
+    {
+      "id": "hit-select",
+      "object_slot_rva": "0x49ee08",
+      "vtable_rva": "0x46acc0"
+    },
+    {
+      "id": "reach",
+      "object_slot_rva": "0x49eda8",
+      "vtable_rva": "0x46d1b8"
+    },
+    {
+      "id": "velocity",
+      "object_slot_rva": "0x49edd8",
+      "vtable_rva": "0x46ead8"
+    },
+    {
+      "id": "backtrack",
+      "object_slot_rva": "0x49ed00",
+      "vtable_rva": "0x468678"
+    },
+    {
+      "id": "lag-range",
+      "object_slot_rva": "0x49ed30",
+      "vtable_rva": "0x46bce0"
+    },
+    {
+      "id": "sprint-reset",
+      "object_slot_rva": "0x49ecb0",
+      "vtable_rva": "0x46d930"
+    },
+    {
+      "id": "misplace",
+      "object_slot_rva": "0x49ed80",
+      "vtable_rva": "0x46c0e0"
+    },
+    {
+      "id": "right-clicker",
+      "object_slot_rva": "0x49edb8",
+      "vtable_rva": "0x46d5b8"
+    },
+    {
+      "id": "fake-lag",
+      "object_slot_rva": "0x49ed28",
+      "vtable_rva": "0x46a020"
+    },
+    {
+      "id": "anti-bot",
+      "object_slot_rva": "0x49ecd8",
+      "vtable_rva": "0x467d18"
+    },
+    {
+      "id": "targeting",
+      "object_slot_rva": "0x49ee00",
+      "vtable_rva": "0x46dd00"
+    },
+    {
+      "id": "player-esp",
+      "object_slot_rva": "0x49eda0",
+      "vtable_rva": "0x46cb60"
+    },
+    {
+      "id": "block-esp",
+      "object_slot_rva": "0x49ed08",
+      "vtable_rva": "0x468e40"
+    },
+    {
+      "id": "item-esp",
+      "object_slot_rva": "0x49ed60",
+      "vtable_rva": "0x46bae8"
+    },
+    {
+      "id": "outlines",
+      "object_slot_rva": "0x49ed68",
+      "vtable_rva": "0x4677c0"
+    },
+    {
+      "id": "chams",
+      "object_slot_rva": "0x49ed18",
+      "vtable_rva": "0x469c98"
+    },
+    {
+      "id": "name-tags",
+      "object_slot_rva": "0x49ed90",
+      "vtable_rva": "0x46c3c8"
+    },
+    {
+      "id": "tracers",
+      "object_slot_rva": "0x49ecc0",
+      "vtable_rva": "0x4676c8"
+    },
+    {
+      "id": "hud",
+      "object_slot_rva": "0x49ed70",
+      "vtable_rva": "0x46b238"
+    },
+    {
+      "id": "radar",
+      "object_slot_rva": "0x49ede8",
+      "vtable_rva": "0x46cf08"
+    },
+    {
+      "id": "bed-plates",
+      "object_slot_rva": "0x49edf0",
+      "vtable_rva": "0x468988"
+    },
+    {
+      "id": "trajectories",
+      "object_slot_rva": "0x49edf8",
+      "vtable_rva": "0x46e6a8"
+    },
+    {
+      "id": "notifications",
+      "object_slot_rva": "0x49ed98",
+      "vtable_rva": "0x46c5e0"
+    },
+    {
+      "id": "sprint",
+      "object_slot_rva": "0x49edc0",
+      "vtable_rva": "0x46d7a8"
+    },
+    {
+      "id": "strafe",
+      "object_slot_rva": "0x49edc8",
+      "vtable_rva": "0x46dad8"
+    },
+    {
+      "id": "bridge-assist",
+      "object_slot_rva": "0x49ed10",
+      "vtable_rva": "0x469b68"
+    },
+    {
+      "id": "timer",
+      "object_slot_rva": "0x49edd0",
+      "vtable_rva": "0x46dea8"
+    },
+    {
+      "id": "freelook",
+      "object_slot_rva": "0x49ed50",
+      "vtable_rva": "0x46a7f0"
+    },
+    {
+      "id": "auto-item",
+      "object_slot_rva": "0x49ece8",
+      "vtable_rva": "0x4682f8"
+    },
+    {
+      "id": "auto-soup",
+      "object_slot_rva": "0x49ecf0",
+      "vtable_rva": "0x468418"
+    },
+    {
+      "id": "auto-totem",
+      "object_slot_rva": "0x49ecf8",
+      "vtable_rva": "0x468528"
+    },
+    {
+      "id": "chest-stealer",
+      "object_slot_rva": "0x49ed20",
+      "vtable_rva": "0x469e48"
+    },
+    {
+      "id": "fast-break",
+      "object_slot_rva": "0x49ed38",
+      "vtable_rva": "0x46a1a8"
+    },
+    {
+      "id": "fast-place",
+      "object_slot_rva": "0x49ed40",
+      "vtable_rva": "0x46a2a0"
+    },
+    {
+      "id": "fireballs",
+      "object_slot_rva": "0x49ed48",
+      "vtable_rva": "0x46a5c0"
+    },
+    {
+      "id": "friends",
+      "object_slot_rva": "0x49ed58",
+      "vtable_rva": "0x46a910"
+    },
+    {
+      "id": "macros",
+      "object_slot_rva": "0x49ed78",
+      "vtable_rva": "0x46be20"
+    },
+    {
+      "id": "misc",
+      "object_slot_rva": "0x49ed88",
+      "vtable_rva": "0x46bf90"
+    },
+    {
+      "id": "refill",
+      "object_slot_rva": "0x49edb0",
+      "vtable_rva": "0x46d3d8"
+    },
+    {
+      "id": "block-in",
+      "object_slot_rva": "0x49ede0",
+      "vtable_rva": "0x469848"
+    },
+    {
+      "id": "chat",
+      "object_slot_rva": "0x49ecc8",
+      "vtable_rva": "0x46b7d8"
+    }
+  ]
+}

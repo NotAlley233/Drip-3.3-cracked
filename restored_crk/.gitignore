@@ -1,0 +1,11 @@
+.venv/
+assets/
+build/
+dist/
+evidence/
+__pycache__/
+*.pyc
+*_data/
+DIFF_FILE.patch
+ROLLBACK.sh
+VERIFICATION.txt
